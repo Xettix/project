@@ -1,0 +1,19 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 200vh;
+}
+ 
+button {
+    font-family: inherit;
+    width: 200px;
+ }
+
+ header {
+    color: #fff;
+    background: url('../assets/img/bg_header.webp') center/cover fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
