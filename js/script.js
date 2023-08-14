@@ -12,7 +12,7 @@ btn.addEventListener('click', ()=>{
     if(counter % 2 === 0) {
         h1.innerText = 'Salon samochodowy w Krakowie';
     } else {
-        h1.innerText = 'Piotr Kania';
+        h1.innerText = 'Tymoteusz Bartos';
     }
 
 
