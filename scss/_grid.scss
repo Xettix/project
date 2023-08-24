@@ -1,0 +1,64 @@
+@use 'variables';
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    @media screen and (min-width: 740px) {
+        max-width: 800px;
+    }
+    @media screen and (min-width: 1200px) {
+        max-width: 1000px;
+    }
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 1.5 * variables.$grid-base;
+    @media screen and (min-width: 740px) {
+        flex-direction: row;
+    }
+}
+
+.col {
+    width: 100%;
+    padding: 2 * variables.$grid-base;
+
+    &-md50 {
+        @media screen and (min-width: variables.$bp-md) {
+            flex: 0 0 50%;
+        }
+    }
+    
+    &-md33 {
+        @media screen and (min-width: variables.$bp-md) {
+            flex: 0 0 33.333333%;
+        }
+    }
+    
+    &-md25 {
+        @media screen and (min-width: variables.$bp-md) {
+            flex: 0 0 25%;
+        }
+    }
+    
+    &-lg50 {
+        @media screen and (min-width: variables.$bp-lg) {
+            flex: 0 0 50%;
+        }
+    }
+    
+    &-lg33 {
+        @media screen and (min-width: variables.$bp-lg) {
+            flex: 0 0 33.333333%;
+        }
+    }
+    
+    &-lg25 {
+        @media screen and (min-width: variables.$bp-lg) {
+            flex: 0 0 25%;
+        }
+    }
+}

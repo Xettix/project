@@ -52,6 +52,10 @@ table {
   border-spacing: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 10px;
 }
@@ -108,6 +112,7 @@ header .material-icons {
   position: absolute;
   top: 0;
   right: 3rem;
+  cursor: pointer;
 }
 header span {
   z-index: 2;
@@ -123,7 +128,7 @@ header nav ul {
   position: absolute;
   top: 0;
   right: 0;
-  width: 50%;
+  width: 25%;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -197,6 +202,100 @@ header video {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+}
+
+.display-block {
+  display: block;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+@media screen and (min-width: 740px) {
+  .container {
+    max-width: 800px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 15px;
+}
+@media screen and (min-width: 740px) {
+  .row {
+    flex-direction: row;
+  }
+}
+
+.col {
+  width: 100%;
+  padding: 20px;
+}
+@media screen and (min-width: 760px) {
+  .col-md50 {
+    flex: 0 0 50%;
+  }
+}
+@media screen and (min-width: 760px) {
+  .col-md33 {
+    flex: 0 0 33.333333%;
+  }
+}
+@media screen and (min-width: 760px) {
+  .col-md25 {
+    flex: 0 0 25%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .col-lg50 {
+    flex: 0 0 50%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .col-lg33 {
+    flex: 0 0 33.333333%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .col-lg25 {
+    flex: 0 0 25%;
+  }
+}
+
+section {
+  padding-top: 4rem;
+  min-height: 100vh;
+}
+section:nth-of-type(even) {
+  background-color: lightgray;
+}
+
+h2 {
+  font-size: 5rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 15px #000;
+  padding-bottom: 3rem;
+}
+
+h3 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 150%;
 }
 
 /*# sourceMappingURL=style.css.map */
