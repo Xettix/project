@@ -298,4 +298,11 @@ p {
   line-height: 150%;
 }
 
+footer {
+  background-color: #0D0D0D;
+  color: #fff;
+  padding: 20px;
+  height: 30vh;
+}
+
 /*# sourceMappingURL=style.css.map */

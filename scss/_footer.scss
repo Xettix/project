@@ -1,0 +1,8 @@
+@use 'variables';
+
+footer {
+    background-color: variables.$color2;
+    color: variables.$color3;
+    padding: 20px;
+    height:30vh;
+}
