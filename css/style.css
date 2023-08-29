@@ -96,7 +96,7 @@ header .top {
   display: flex;
   align-items: center;
   color: #fff;
-  font-size: 400%;
+  font-size: 300%;
   z-index: 2;
 }
 header .logo {
@@ -108,7 +108,7 @@ header .logo {
   z-index: 2;
 }
 header .material-icons {
-  font-size: 160%;
+  font-size: 180%;
   position: absolute;
   top: 0;
   right: 3rem;
@@ -272,7 +272,7 @@ header video {
 }
 
 section {
-  padding-top: 4rem;
+  padding-top: 7rem;
   min-height: 100vh;
 }
 section:nth-of-type(even) {
