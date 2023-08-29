@@ -5,6 +5,10 @@ section{
     &:nth-of-type(even) {
         background-color: lightgray;
     }
+
+    &:nth-of-type(2) {
+        text-align: center;
+    }
 }
 
 h2 {
